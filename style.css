@@ -1,0 +1,103 @@
+:root {
+    box-sizing: border-box;
+} 
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0px;
+}
+
+#container-main {
+    margin-top: 100px;
+    min-height: 400px;
+}
+
+.body-index {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: lightyellow;
+}
+
+#navbar-index{
+    background-color: lightyellow; 
+    border-bottom: 1px solid black;
+}
+
+#card-index {
+    width: 15rem;
+    height: 15rem;
+    font-size: 0.9rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.group-items {
+    display: grid;
+    justify-items: center;
+    padding-left: 0px;
+}
+
+footer {
+    display:grid;
+    min-height: 90px;
+    justify-content: center;
+    border-top: solid 1px black;
+    padding-top: 30px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+/* ***************************************
+*********Add Product page**************
+*************************************** */
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;  
+    overflow: hidden;
+    justify-content:flex-start;
+}
+
+#sku, 
+#name, 
+#price {
+    width: 220px;
+}
+
+.input-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    max-height: 40px;
+}
+
+.card-addproduct {
+    display: none;
+    justify-content: center;
+    width: 25rem;
+    font-size: 0.9rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: greenyellow;
+    margin-top: 70px;
+    margin-left: 0px;
+}
+
+.checking{
+    display: inline-flex;
+    justify-content: flex-start;
+    padding-left: 175px;
+    font-size: 0.7rem; 
+    color: red;
+}
+
+
+
+
+
